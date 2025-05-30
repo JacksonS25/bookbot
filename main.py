@@ -14,7 +14,7 @@ def main():
     character_count = count_characters(book)
     sorted_character_count = sort_character_count(character_count)
     print("============ BOOKBOT ============")
-    print("Analyzing book found at books/frankenstein.txt...")
+    print(f"Analyzing book found at {sys.argv[1]}")
     print("----------- Word Count ----------")
     print(f"Found {num_words} total words")
     print("--------- Character Count -------")
